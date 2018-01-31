@@ -26,7 +26,7 @@ export default class Header extends Component<{}> {
             <View style={styles.header}>
                 <View style={styles.drawerImage}>
                     <TouchableOpacity onPress={this.openDrawer.bind(this)}>
-                        <Image onPress={this.openDrawer.bind(this)} style={styles.imageStyle} source={require('./Assets/icon.png')} />
+                        <Image onPress={this.openDrawer.bind(this)} style={styles.imageStyle} source={require('../Assets/icon.png')} />
                     </TouchableOpacity>
                 </View>
                 <View style={styles.headerHeading}>
